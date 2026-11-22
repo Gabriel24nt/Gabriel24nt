@@ -108,19 +108,25 @@ An interactive equity research application focused on Meta Platforms, Inc. (NASD
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Launch_META_Research-red?style=for-the-badge&logo=streamlit)](https://meta-equity-research-app.streamlit.app/)
 [![Source Code](https://img.shields.io/badge/Source_Code-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/Gabriel24nt/META-Equity-Research)
 
-### 3. 📈 Global Industries Financial Model
 
-An advanced financial modeling project designed to analyze company performance and financial position.
+### 3. 🪐 ORBITE — Corporate Finance & Financial Intelligence Platform
 
-**Focus:** Income Statement, Balance Sheet, Cash Flow, Financial Ratios and Valuation.
+An integrated financial analysis platform designed to support corporate finance, equity research and investment decision-making.
 
-### 4. 💻 Finance Terminal Pro
+**Key Features:**
+- Executive Financial Dashboard
+- Company Search and Financial Data
+- Financial Statements Analysis
+- Corporate Financial Performance Analysis
+- DCF Valuation and WACC Calculation
+- Trading Multiples and Sensitivity Analysis
+- Excel Center: Data Export and Reimport
+- Financial Research Report
 
-A financial technology project combining financial data, Python and interactive analytics.
+**Technologies:** Python, Streamlit, yfinance, Pandas, NumPy and Excel.
 
-**Technologies:** Python, Streamlit, Pandas and Data Visualization.
+**Project Focus:** Corporate Finance, Equity Research, Financial Modeling, Company Valuation and Financial Intelligence.
 
----
 
 ## 🎓 Education
 

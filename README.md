@@ -87,12 +87,17 @@ Mon objectif est de combiner expertise financière, esprit analytique et technol
 
 ## 🚀 Featured Projects | Projets
 
-### 1. STRATOS
-Strategic Intelligence & Country Risk Platform.
 
-A data-driven platform designed to analyze geopolitical, economic and financial risks and support strategic decision-making.
+### 🌍 STRATOS — Strategic Intelligence Platform
 
-**Technologies:** Python, Streamlit, SQL.
+A strategic intelligence platform combining geopolitical, economic and financial analysis to support decision-making.
+
+**Technologies:** Python, Streamlit, SQLite, Pandas.
+
+[![Live Demo](https://img.shields.io/badge/🚀_LIVE_DEMO-Launch_STRATOS-success?style=for-the-badge)](https://stratos-meridian.streamlit.app/)
+
+[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-blue?style=for-the-badge)](https://github.com/Gabriel24nt/STRATOS)
+
 
 ### 2. META Equity Research
 Financial analysis and equity valuation project focused on Meta Platforms.

@@ -109,6 +109,7 @@ An interactive equity research application focused on Meta Platforms, Inc. (NASD
 [![Source Code](https://img.shields.io/badge/Source_Code-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/Gabriel24nt/META-Equity-Research)
 
 
+
 ### 3. 🪐 ORBITE — Corporate Finance & Financial Intelligence Platform
 
 An integrated financial analysis platform designed to support corporate finance, equity research and investment decision-making.
@@ -121,11 +122,15 @@ An integrated financial analysis platform designed to support corporate finance,
 - DCF Valuation and WACC Calculation
 - Trading Multiples and Sensitivity Analysis
 - Excel Center: Data Export and Reimport
-- Financial Research Report
+- Financial Research Reports
 
 **Technologies:** Python, Streamlit, yfinance, Pandas, NumPy and Excel.
 
 **Project Focus:** Corporate Finance, Equity Research, Financial Modeling, Company Valuation and Financial Intelligence.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Launch_ORBITE-purple?style=for-the-badge&logo=streamlit)](https://orbite-equity-research-corporate-finance.streamlit.app/)
+
+[![Source Code](https://img.shields.io/badge/Source_Code-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/Gabriel24nt/Orbite-EQUITY-RESEARCH-CORPORATE-FINANCE)
 
 
 ## 🎓 Education

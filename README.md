@@ -1,7 +1,7 @@
 
 # Hi, I'm Alan Gabriel Nte 👋
 
-### Finance | Investment Banking | Equity Research | Strategic Intelligence
+### Business & Economic intelligence | Investment Banking | Equity Research | Strategic Intelligence | Finance | Country risk & Geopolitical risk
 
 **Building analytical and technology-driven solutions for financial and strategic decision-making.**
 

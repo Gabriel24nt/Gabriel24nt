@@ -1,449 +1,430 @@
 
-<div align="center">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alan Gabriel Nte | Portfolio</title>
 
-# 👋 Hi, I'm Alan Gabriel Nte
+<style>
+:root {
+    --background: #050914;
+    --navy: #0A1630;
+    --card: #0C1930;
+    --blue: #168BFF;
+    --cyan: #00C8FF;
+    --white: #EAF2FF;
+    --muted: #A9BBD5;
+    --border: #20385E;
+}
 
-### FINANCE × STRATEGY × DATA × TECHNOLOGY
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-**Financial Analysis | Investment Banking | Equity Research | Strategic Intelligence | Risk Analytics**
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    color: var(--white);
+    min-height: 100vh;
+}
 
-Building analytical and technology-driven solutions for financial, investment and strategic decision-making.
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+        radial-gradient(circle at 15% 15%, #1264bd25, transparent 40%),
+        radial-gradient(circle at 85% 50%, #008bff18, transparent 45%),
+        radial-gradient(circle at 50% 95%, #00c8ff12, transparent 40%);
+    pointer-events: none;
+    z-index: -1;
+}
 
-<br>
+.container {
+    max-width: 760px;
+    margin: auto;
+    padding: 35px 22px;
+}
 
-<a href="https://github.com/Gabriel24nt">
-<img src="https://img.shields.io/badge/GitHub-Gabriel24nt-0D1117?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://www.linkedin.com/in/alan-gabriel-nte-77b510388/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+/* HEADER */
 
-<br><br>
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-<img src="https://img.shields.io/badge/FINANCE-0A192F?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/STRATEGY-142D4E?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/DATA-00B4D8?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/TECHNOLOGY-7B2CBF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/INVESTMENT-00A86B?style=for-the-badge"/>
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+.logo span {
+    color: var(--blue);
+}
+
+.menu {
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+/* HERO */
+
+.hero {
+    text-align: center;
+    margin: 85px 0 55px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: 900;
+    background: linear-gradient(135deg, #10264B, #168BFF, #00C8FF);
+    border: 4px solid var(--blue);
+    box-shadow: 0 0 35px #168bff30;
+}
+
+.hero h1 {
+    font-size: clamp(32px, 6vw, 55px);
+    font-weight: 900;
+    margin-bottom: 20px;
+    letter-spacing: -2px;
+}
+
+.hero h1 span {
+    background: linear-gradient(90deg, #168BFF, #00C8FF);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.subtitle {
+    font-size: 19px;
+    color: var(--muted);
+    line-height: 1.7;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* SECTION */
+
+.section-title {
+    text-align: center;
+    margin: 45px 0 25px;
+    color: var(--cyan);
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* CARDS */
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 23px;
+    text-decoration: none;
+    color: white;
+
+    background: linear-gradient(
+        135deg,
+        rgba(16,38,75,0.65),
+        rgba(8,19,39,0.9)
+    );
+
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    backdrop-filter: blur(12px);
+
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--blue);
+    box-shadow: 0 10px 35px #168bff20;
+    background: linear-gradient(
+        135deg,
+        #10264b,
+        #0c1930
+    );
+}
+
+.icon {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #10264B;
+    border: 1px solid #254d7d;
+    font-size: 27px;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card h2 {
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.arrow {
+    font-size: 25px;
+    color: var(--cyan);
+}
+
+/* ABOUT */
+
+.about {
+    margin-top: 45px;
+    padding: 25px;
+    border-radius: 24px;
+    background: #0A1630AA;
+    border: 1px solid var(--border);
+}
+
+.about h2 {
+    margin-bottom: 15px;
+    color: var(--cyan);
+}
+
+.about p {
+    color: var(--muted);
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 65px;
+    padding-top: 30px;
+    border-top: 1px solid #20385e;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+footer span {
+    color: var(--blue);
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+    background: #10264B;
+    border: 1px solid #254d7d;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    background: var(--blue);
+    transform: translateY(-3px);
+}
+
+.copyright {
+    color: #647d9f;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .container {
+        padding: 25px 18px;
+    }
+
+    .hero {
+        margin-top: 65px;
+    }
+
+    .avatar {
+        width: 130px;
+        height: 130px;
+    }
+
+    .card {
+        padding: 18px;
+        gap: 13px;
+        border-radius: 20px;
+    }
+
+    .icon {
+        min-width: 52px;
+        height: 52px;
+        font-size: 23px;
+    }
+
+    .card h2 {
+        font-size: 17px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+    <div class="logo">AG<span>.</span> PORTFOLIO</div>
+    <a class="menu" href="#projects">☰</a>
+</header>
+
+<section class="hero">
+
+    <div class="avatar">AG</div>
+
+    <h1>Alan Gabriel <span>Nte</span></h1>
+
+    <p class="subtitle">
+        Finance, Strategic Intelligence & Technology.<br>
+        I analyze. I build. I create strategic value.
+    </p>
+
+</section>
+
+<h3 class="section-title" id="projects">
+    Explore my universe
+</h3>
+
+<div class="links">
+
+    <a class="card"
+       href="https://github.com/Alan-Nte"
+       target="_blank">
+        <div class="icon">⌘</div>
+        <div class="card-content">
+            <h2>GitHub</h2>
+            <p>My code, projects and experiments</p>
+        </div>
+        <div class="arrow">›</div>
+    </a>
+
+    <a class="card" href="#">
+        <div class="icon">🌐</div>
+        <div class="card-content">
+            <h2>STRATOS</h2>
+            <p>Strategic Intelligence Platform</p>
+        </div>
+        <div class="arrow">›</div>
+    </a>
+
+    <a class="card" href="#">
+        <div class="icon">📊</div>
+        <div class="card-content">
+            <h2>Equity Research</h2>
+            <p>Financial modelling, valuation and investment analysis</p>
+        </div>
+        <div class="arrow">›</div>
+    </a>
+
+    <a class="card" href="#">
+        <div class="icon">🌍</div>
+        <div class="card-content">
+            <h2>Meridian Risk Advisory</h2>
+            <p>Economic intelligence, country risk and strategy</p>
+        </div>
+        <div class="arrow">›</div>
+    </a>
+
+    <a class="card" href="#">
+        <div class="icon">💼</div>
+        <div class="card-content">
+            <h2>LinkedIn</h2>
+            <p>My professional journey and insights</p>
+        </div>
+        <div class="arrow">›</div>
+    </a>
+
+    <a class="card" href="#">
+        <div class="icon">📈</div>
+        <div class="card-content">
+            <h2>Financial Analysis Platform</h2>
+            <p>Financial modelling and business performance analysis</p>
+        </div>
+        <div class="arrow">›</div>
+    </a>
 
 </div>
 
----
+<section class="about">
+    <h2>About me</h2>
+    <p>
+        Business school student passionate about financial analysis,
+        investment banking, economic intelligence, strategic consulting
+        and technology. I build analytical projects to develop practical
+        skills and support better decision-making.
+    </p>
+</section>
 
-# 👨‍💻 ABOUT ME
+<footer>
 
-🇬🇧 **English**
+    <h2>
+        Built with curiosity.<br>
+        <span>Driven by strategy.</span>
+    </h2>
 
-I am a Master in Management student at **Burgundy School of Business**, specializing in Corporate Finance and Management Control.
+    <div class="socials">
+        <a href="https://github.com/Alan-Nte" target="_blank">⌘</a>
+        <a href="#" target="_blank">in</a>
+        <a href="mailto:contact@example.com">✉</a>
+    </div>
 
-My interests lie at the intersection of financial markets, corporate finance, investment analysis, strategic consulting, economic intelligence, risk analytics and technology.
+    <p class="copyright">
+        © 2026 Alan Gabriel Nte · All rights reserved
+    </p>
 
-I build analytical applications, financial models and research projects combining financial methodologies, data processing, programming and visualization.
-
-My objective is to transform financial, economic and strategic data into actionable insights supporting investment decisions, corporate strategy and risk assessment.
-
-### Areas of Expertise & Interest
-
-- 🏦 Investment Banking & Corporate Finance
-- 📊 Equity Research & Investment Analysis
-- 💰 Financial Modeling & Valuation
-- 📑 Financial Statement Analysis
-- 📉 DCF, WACC & Comparable Company Analysis
-- 🤝 M&A & Transaction Analysis
-- 🌍 Economic & Strategic Intelligence
-- ⚠️ Country Risk & Geopolitical Risk
-- 🎯 Strategy Consulting & Business Intelligence
-- 💻 Financial Technology & Data Analytics
-- 📈 Quantitative & Data-Driven Analysis
-
----
-
-🇫🇷 **À propos**
-
-Étudiant en Master in Management à **Burgundy School of Business**, spécialisé en finance d'entreprise et contrôle de gestion.
-
-Je développe un profil hybride associant finance, analyse des investissements, conseil stratégique, intelligence économique, data analytics et technologies.
-
-À travers mes projets, je développe des applications analytiques, des modèles financiers et des outils d'aide à la décision permettant d'exploiter les données financières, économiques et stratégiques.
-
-Mon objectif est de construire une expertise solide en finance de haut niveau, banque d'investissement, analyse des investissements, conseil stratégique et intelligence financière.
-
----
-
-# 🚀 FEATURED PROJECTS
-
-## 🌍 01 — STRATOS
-
-### Strategic Intelligence & Country Risk Analytics Platform
-
-> A strategic intelligence platform combining geopolitical, economic, financial and country-risk analysis to support strategic decision-making.
-
-**Platform Focus**
-
-- Strategic Intelligence Dashboard
-- Intelligence Feed & Information Management
-- Geopolitical Monitoring
-- Country Risk Assessment
-- Macroeconomic Indicators
-- Economic & Sectoral Intelligence
-- Strategic Risk Analysis
-- Global Intelligence Mapping
-- Financial Intelligence
-- Decision Support
-
-**Technical Architecture & Technologies**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge)
-![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-**Technical Components**
-
-- Python-based analytical application
-- SQLite database management
-- Structured intelligence data storage
-- API-based economic data integration
-- Data processing and transformation
-- Interactive analytical dashboards
-- Country risk indicator monitoring
-- Data visualization and mapping
-- Modular analytical architecture
-
-<div align="center">
-
-<a href="https://stratos-meridian.streamlit.app/">
-<img src="https://img.shields.io/badge/🚀_LIVE_APPLICATION-Launch_STRATOS-00B4D8?style=for-the-badge"/>
-</a>
-
-<a href="https://github.com/Gabriel24nt/STRATOS">
-<img src="https://img.shields.io/badge/📂_SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
+</footer>
 
 </div>
 
----
-
-## 📊 02 — META EQUITY RESEARCH
-
-### Financial Analysis, Equity Research & Valuation
-
-> An interactive financial research application focused on Meta Platforms, Inc. (NASDAQ: META), combining financial statement analysis, valuation methodologies and investment research.
-
-**Analytical Framework**
-
-- Historical Financial Statement Analysis
-- Revenue & Earnings Growth Analysis
-- Profitability & Margin Analysis
-- Cash Flow Analysis
-- Financial Ratio Analysis
-- Discounted Cash Flow Valuation
-- Weighted Average Cost of Capital
-- Trading Comparables
-- Enterprise Value & Equity Value
-- Valuation Sensitivity Analysis
-- Financial Modeling
-- Investment Thesis Development
-
-**Technical Stack**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![YFinance](https://img.shields.io/badge/YFinance-Market_Data-008080?style=for-the-badge)
-![OpenPyXL](https://img.shields.io/badge/OpenPyXL-Excel_Integration-217346?style=for-the-badge)
-![Excel](https://img.shields.io/badge/Excel-Financial_Analysis-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-**Technical Components**
-
-- Financial data acquisition
-- Data cleaning and transformation
-- Financial metrics computation
-- Valuation model implementation
-- DCF modeling framework
-- WACC calculation
-- Interactive financial visualization
-- Scenario and sensitivity analysis
-- Excel workbook generation
-- Investment research workflow
-
-<div align="center">
-
-<a href="https://meta-equity-research-app.streamlit.app/">
-<img src="https://img.shields.io/badge/🚀_LIVE_APPLICATION-Launch_META_Research-E1306C?style=for-the-badge"/>
-</a>
-
-<a href="https://github.com/Gabriel24nt/META-Equity-Research">
-<img src="https://img.shields.io/badge/📂_SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
-
-</div>
-
----
-
-## 🪐 03 — ORBITE
-
-### Corporate Finance & Financial Intelligence Platform
-
-> An integrated financial analytics platform designed to support corporate financial analysis, equity research, company valuation and investment decision-making.
-
-**Platform Modules**
-
-| Module | Description |
-|---|---|
-| 📌 Executive Dashboard | Financial KPIs & performance overview |
-| 🔍 Company Intelligence | Company search & financial data |
-| 📑 Financial Statements | Income statement, balance sheet & cash flow |
-| 📈 Performance Analytics | Growth, profitability & financial ratios |
-| 💵 Valuation Engine | DCF valuation, WACC & enterprise valuation |
-| 🏷️ Comparable Analysis | Trading multiples & peer benchmarking |
-| 🧮 Sensitivity Analysis | Valuation scenarios & assumptions |
-| 📤 Excel Center | Financial data export & reimport |
-| 📝 Research Center | Financial analysis & research reports |
-
-**Technical Stack**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![YFinance](https://img.shields.io/badge/YFinance-Financial_Data-008080?style=for-the-badge)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-**Technical Components**
-
-- Financial data acquisition and processing
-- Corporate financial performance analytics
-- Financial ratio computation
-- DCF valuation framework
-- WACC calculation
-- Enterprise Value & Equity Value analysis
-- Trading multiples
-- Scenario modeling
-- Sensitivity analysis
-- Excel-based financial workflows
-- Interactive dashboards and visualization
-
-<div align="center">
-
-<a href="https://orbite-equity-research-corporate-finance.streamlit.app/">
-<img src="https://img.shields.io/badge/🚀_LIVE_APPLICATION-Launch_ORBITE-8A2BE2?style=for-the-badge"/>
-</a>
-
-<a href="https://github.com/Gabriel24nt/Orbite-EQUITY-RESEARCH-CORPORATE-FINANCE">
-<img src="https://img.shields.io/badge/📂_SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
-
-</div>
-
----
-
-# 🛠️ TECHNOLOGY STACK
-
-## 💻 Programming & Development
-
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-</p>
-
-## 📊 Data Analytics & Scientific Computing
-
-<p>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
-</p>
-
-## 🌐 Application Development
-
-<p>
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST_API-009688?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white"/>
-</p>
-
-## 🗄️ Databases & Data Management
-
-<p>
-<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSV-Data_Processing-4CAF50?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Data_Pipelines-ETL-FF8C00?style=for-the-badge"/>
-</p>
-
-## 💰 Financial Analytics & Modeling
-
-<p>
-<img src="https://img.shields.io/badge/Financial_Analysis-Corporate_Finance-003366?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/DCF-Valuation-008060?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/WACC-Capital_Cost-008080?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Equity_Research-Investment_Analysis-1E90FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Excel-Financial_Modeling-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"/>
-</p>
-
-## 📈 Business Intelligence & Visualization
-
-<p>
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-<img src="https://img.shields.io/badge/DAX-Analytics-0078D4?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
-<img src="https://img.shields.io/badge/Data_Visualization-Analytics-00B4D8?style=for-the-badge"/>
-</p>
-
-## ⚙️ Automation & Deployment
-
-<p>
-<img src="https://img.shields.io/badge/Make-Automation-6D00CC?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cloud_Deployment-Technology-4285F4?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Streamlit_Cloud-Deployment-FF4B4B?style=for-the-badge"/>
-</p>
-
----
-
-# 📚 ANALYTICAL FRAMEWORKS
-
-## Corporate Finance & Investment Analysis
-
-- Financial Statement Analysis
-- Financial Ratio Analysis
-- Revenue & Earnings Forecasting
-- Financial Modeling
-- Discounted Cash Flow Valuation
-- Weighted Average Cost of Capital
-- Enterprise Value & Equity Value
-- Comparable Company Analysis
-- Trading Multiples
-- Scenario Modeling
-- Sensitivity Analysis
-- Capital Structure Analysis
-- Investment Thesis Development
-
-## Strategic & Economic Intelligence
-
-- Strategic Monitoring & Intelligence Collection
-- Economic & Sectoral Intelligence
-- Competitive Intelligence
-- Country Risk Assessment
-- Geopolitical Risk Analysis
-- Macroeconomic Analysis
-- Strategic Risk Assessment
-- Scenario Planning
-- Decision Support Systems
-
-## Data & Quantitative Analysis
-
-- Data Acquisition
-- Data Cleaning & Transformation
-- Exploratory Data Analysis
-- Statistical Analysis
-- Data Visualization
-- Financial Data Processing
-- KPI Monitoring
-- Quantitative Analysis
-- Analytical Automation
-
----
-
-# 🎓 EDUCATION
-
-### 🏛️ Burgundy School of Business
-
-**Master in Management (MiM)**
-
-Academic Focus:
-
-- Corporate Finance
-- Management Control
-- Financial Analysis
-- Financial Theory & Mathematics
-- Strategic Management
-
----
-
-# 🎯 PROFESSIONAL OBJECTIVE
-
-My objective is to develop strong expertise in:
-
-- Investment Banking
-- Corporate Finance
-- Equity Research
-- Financial Modeling & Valuation
-- M&A and Transaction Analysis
-- Strategy Consulting
-- Economic & Financial Intelligence
-- Country Risk & Geopolitical Analysis
-- Financial Data Analytics
-- FinTech & Analytical Technology
-
-I am particularly interested in opportunities where **financial expertise, quantitative thinking, strategic analysis and technology** intersect.
-
----
-
-# 📡 CURRENT DEVELOPMENT
-
-Continuously building and improving projects related to:
-
-- 📊 Financial modeling & valuation
-- 🏦 Corporate finance & investment analysis
-- 📈 Equity research
-- 🌍 Strategic intelligence & country risk
-- 🧠 Data-driven decision support
-- 💻 Python financial applications
-- 📉 Financial analytics & visualization
-- ⚙️ Analytical automation
-
-**Learning → Building → Analyzing → Improving**
-
----
-
-# 📊 GITHUB ANALYTICS
-
-<div align="center">
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=Gabriel24nt&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true"/>
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabriel24nt&layout=compact&theme=tokyonight&hide_border=true"/>
-
-<br>
-
-<img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=Gabriel24nt&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-# 📫 CONNECT WITH ME
-
-<div align="center">
-
-<a href="https://github.com/Gabriel24nt">
-<img src="https://img.shields.io/badge/GitHub-Gabriel24nt-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/alan-gabriel-nte-77b510388/">
-<img src="https://img.shields.io/badge/LinkedIn-Alan_Gabriel_Nte-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<br><br>
-
-### FINANCE × STRATEGY × DATA × TECHNOLOGY
-
-**Learning. Building. Analyzing. Innovating. Creating Value.**
-
-</div>
+</body>
+</html>

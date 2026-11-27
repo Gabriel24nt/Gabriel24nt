@@ -1,18 +1,23 @@
 
 <div align="center">
 
-# ALAN GABRIEL NTE
+<!-- ANIMATED HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050914,30:0A1630,60:168BFF,100:00C8FF&height=220&section=header&text=ALAN%20GABRIEL%20NTE&fontSize=42&fontColor=EAF2FF&fontAlignY=38&animation=fadeIn&desc=FINANCE%20%E2%80%A2%20STRATEGIC%20INTELLIGENCE%20%E2%80%A2%20TECHNOLOGY&descAlignY=60&descSize=16" width="100%" />
 
-### FINANCE · STRATEGIC INTELLIGENCE · TECHNOLOGY
-
-<img src="https://img.shields.io/badge/FINANCE-0A1630?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/STRATEGY-10264B?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/TECHNOLOGY-168BFF?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/DATA-00C8FF?style=for-the-badge&logoColor=white" />
+<!-- TYPING ANIMATION -->
+<a href="https://github.com/Gabriel24nt">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=00C8FF&center=true&vCenter=true&width=850&lines=Finance+%7C+Investment+Banking+%7C+Equity+Research;Strategic+Intelligence+%7C+Country+Risk;Data+Analytics+%7C+Technology+%7C+Automation;I+analyze.+I+build.+I+create+strategic+value." alt="Typing animation" />
+</a>
 
 <br>
 
-**I analyze. I build. I create strategic value.**
+<img src="https://komarev.com/ghpvc/?username=Gabriel24nt&style=for-the-badge&color=168BFF&label=PROFILE+VIEWS" />
+<img src="https://img.shields.io/github/followers/Gabriel24nt?style=for-the-badge&color=0A1630&labelColor=168BFF&logo=github" />
+<img src="https://img.shields.io/badge/STATUS-BUILDING-00C8FF?style=for-the-badge" />
+
+<br><br>
+
+### `I ANALYZE • I BUILD • I RESEARCH • I SHARE`
 
 *Building analytical and technology-driven solutions for financial and strategic decision-making.*
 
@@ -20,74 +25,85 @@
 
 ---
 
-## ABOUT ME
+<!-- ABOUT ME -->
 
-Business student at **Burgundy School of Business**, interested in the intersection of:
+## ◈ ABOUT ME
 
-- Investment Banking & Corporate Finance
-- Equity Research & Financial Analysis
-- Strategic Consulting & Business Transformation
-- Economic Intelligence & Country Risk
-- Data Analytics & Technology
+<img align="right" width="160" src="https://github.com/Gabriel24nt.png" />
 
-I develop projects combining financial analysis, strategic research, data and technology to transform information into actionable insights.
+I'm a business school student at **Burgundy School of Business**, developing a multidisciplinary profile at the intersection of **Finance, Strategic Intelligence, Consulting and Technology**.
+
+My goal is to transform data, research and complex information into structured insights, analytical tools and strategic solutions.
+
+<br>
+
+- 📊 **Finance:** Financial analysis, Equity Research, Investment Banking
+- 🌍 **Intelligence:** Economic intelligence, Country Risk, Geopolitical analysis
+- 🧠 **Strategy:** Consulting, business transformation, competitive analysis
+- 💻 **Technology:** Python, data analytics, automation, digital tools
+- 🚀 **Building:** Practical projects, analytical platforms and research
+
+<br clear="right"/>
 
 ---
 
-## AREAS OF INTEREST
+<!-- PERSONAS -->
+
+## ◈ MY PROFESSIONAL PERSONAS
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td align="center" width="33%">
 
-### 💹 Finance
+<img src="https://img.icons8.com/fluency/96/financial-growth-analysis.png" width="70"/>
 
-- Financial Analysis
-- Equity Research
-- Financial Modelling
-- Business Valuation
-- Investment Banking
-- Corporate Finance
+### THE FINANCE ANALYST
 
-</td>
+**Financial thinking**
 
-<td width="50%" valign="top">
+Financial statements  
+Valuation  
+Investment analysis  
+Corporate Finance  
+Equity Research
 
-### 🌐 Strategic Intelligence
-
-- Economic Intelligence
-- Country Risk Analysis
-- Geopolitical Risk
-- Competitive Intelligence
-- Strategic Research
-- Business Intelligence
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 📊 Data & Analytics
-
-- Data Analysis
-- Financial Data
-- Economic Indicators
-- Dashboard Development
-- Quantitative Analysis
+<img src="https://img.shields.io/badge/FOCUS-VALUATION-168BFF?style=flat-square"/>
 
 </td>
 
-<td width="50%" valign="top">
+<td align="center" width="33%">
 
-### 💻 Technology
+<img src="https://img.icons8.com/fluency/96/globe.png" width="70"/>
 
-- Python
-- Streamlit
-- SQL
-- Excel
-- Git & GitHub
-- Automation
+### THE STRATEGIST
+
+**Strategic thinking**
+
+Economic Intelligence  
+Country Risk  
+Geopolitics  
+Competitive Intelligence  
+Decision Support
+
+<img src="https://img.shields.io/badge/FOCUS-STRATEGY-00C8FF?style=flat-square"/>
+
+</td>
+
+<td align="center" width="33%">
+
+<img src="https://img.icons8.com/fluency/96/source-code.png" width="70"/>
+
+### THE BUILDER
+
+**Technology mindset**
+
+Python  
+Data Analytics  
+Automation  
+Digital Platforms  
+AI & Tools
+
+<img src="https://img.shields.io/badge/FOCUS-INNOVATION-10264B?style=flat-square"/>
 
 </td>
 </tr>
@@ -95,15 +111,80 @@ I develop projects combining financial analysis, strategic research, data and te
 
 ---
 
-## FEATURED PROJECTS
+<!-- DOMAINS -->
 
-### 01 — STRATOS
+## ◈ CORE DOMAINS
 
-**Strategic Intelligence & Country Risk Platform**
+<div align="center">
 
-A technology-driven platform designed to support strategic decision-making through economic intelligence, country risk monitoring, financial intelligence and geopolitical analysis.
+<img src="https://img.shields.io/badge/INVESTMENT_BANKING-0A1630?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/EQUITY_RESEARCH-10264B?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/CORPORATE_FINANCE-168BFF?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/STRATEGIC_CONSULTING-00C8FF?style=for-the-badge&logoColor=white"/>
 
-**Key modules:**
+<br>
+
+<img src="https://img.shields.io/badge/ECONOMIC_INTELLIGENCE-0A1630?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/COUNTRY_RISK-10264B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/GEOPOLITICAL_ANALYSIS-168BFF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/DATA_ANALYTICS-00C8FF?style=for-the-badge"/>
+
+</div>
+
+---
+
+<!-- TECH STACK -->
+
+## ◈ TECHNOLOGY STACK
+
+### Languages & Development
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,html,css,js,sqlite,git,github,vscode&theme=dark" />
+
+</div>
+
+### Data, Finance & Productivity
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Microsoft_Excel-0A1630?style=for-the-badge&logo=microsoft-excel&logoColor=00C8FF"/>
+<img src="https://img.shields.io/badge/Python_Data-10264B?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Streamlit-168BFF?style=for-the-badge&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLite-00C8FF?style=for-the-badge&logo=sqlite&logoColor=white"/>
+
+</div>
+
+### Tools & Applications
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/VS_Code-0A1630?style=for-the-badge&logo=visual-studio-code&logoColor=00C8FF"/>
+<img src="https://img.shields.io/badge/GitHub-10264B?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Streamlit-168BFF?style=for-the-badge&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/Make_Automation-00C8FF?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power_BI-10264B?style=for-the-badge&logo=powerbi&logoColor=white"/>
+
+</div>
+
+---
+
+<!-- PROJECTS -->
+
+## ◈ SELECTED PROJECTS
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌐 STRATOS
+
+**Strategic Intelligence Platform**
+
+An analytical platform dedicated to strategic intelligence, country risk, economic monitoring and decision-support.
+
+**Modules**
 
 - Intelligence Feed
 - Country Risk Monitor
@@ -112,137 +193,198 @@ A technology-driven platform designed to support strategic decision-making throu
 - Competitive Intelligence
 - Strategic Decision Lab
 
-`Python` `Streamlit` `SQLite` `Data Analysis` `API`
+<br>
 
-🔗 **Project:** [Explore STRATOS](https://github.com/Gabriel24nt)
+<img src="https://img.shields.io/badge/Python-0A1630?style=flat-square&logo=python&logoColor=00C8FF"/>
+<img src="https://img.shields.io/badge/Streamlit-168BFF?style=flat-square&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLite-10264B?style=flat-square&logo=sqlite&logoColor=white"/>
 
----
+</td>
 
-### 02 — META EQUITY RESEARCH
+<td width="50%" valign="top">
 
-**Company Analysis & Investment Research**
+### 📈 META EQUITY RESEARCH
 
-A financial research project focused on analysing Meta Platforms through financial statements, valuation methodologies, business performance and investment perspectives.
+**Financial Analysis & Valuation**
 
-**Key components:**
+A comprehensive equity research project focused on Meta Platforms.
 
-- Financial statement analysis
-- Revenue & profitability analysis
+**Modules**
+
+- Business model analysis
+- Financial statements
+- Revenue & profitability
 - Financial ratios
-- Valuation modelling
+- Valuation
 - Investment thesis
-- Risks & opportunities
+- Risks & scenarios
 
-`Financial Analysis` `Equity Research` `Python` `Excel` `Valuation`
+<br>
 
-🔗 **Project:** [Explore Equity Research](https://github.com/Gabriel24nt)
+<img src="https://img.shields.io/badge/EQUITY_RESEARCH-0A1630?style=flat-square"/>
+<img src="https://img.shields.io/badge/VALUATION-168BFF?style=flat-square"/>
+<img src="https://img.shields.io/badge/FINANCIAL_ANALYSIS-00C8FF?style=flat-square"/>
 
----
+</td>
+</tr>
 
-### 03 — FINANCIAL ANALYSIS PLATFORM
+<tr>
+<td width="50%" valign="top">
 
-**Automated Financial & Economic Analysis**
+### 📊 FINANCIAL ANALYSIS PLATFORM
 
-An analytical tool designed to transform company financial data into structured indicators, financial ratios, dashboards and decision-support insights.
+**Automated Financial Analysis**
 
-**Key components:**
+An analytical workbook designed to transform company data into financial indicators, performance analysis and decision-support dashboards.
 
-- Financial data input
-- Accounting frameworks
 - Financial ratios
-- Performance analysis
-- Charts & dashboards
-- Automated reporting
+- Profitability analysis
+- Liquidity
+- Solvency
+- Performance dashboards
+- Accounting frameworks
 
-`Excel` `Financial Modelling` `Automation` `Data Visualization`
+<img src="https://img.shields.io/badge/EXCEL-0A1630?style=flat-square&logo=microsoft-excel&logoColor=00C8FF"/>
+<img src="https://img.shields.io/badge/FINANCIAL_MODELLING-168BFF?style=flat-square"/>
 
----
+</td>
 
-### 04 — MERIDIAN RISK ADVISORY
+<td width="50%" valign="top">
+
+### 🌍 MERIDIAN RISK ADVISORY
 
 **Economic Intelligence & Strategic Advisory**
 
-An Africa-focused strategic intelligence initiative analysing economic environments, sector opportunities, geopolitical developments and investment risks.
-
-**Strategic pillars:**
+An Africa-focused intelligence initiative dedicated to helping businesses understand markets, risks and strategic opportunities.
 
 - Economic & Sector Intelligence
-- Country Risk & Geopolitical Analysis
-- Strategic Consulting
-- Market Entry & Investment Research
+- Country Risk
+- Geopolitical Risk
+- Investment Research
+- Market Entry
 - Energy & Infrastructure
 
-`OSINT` `Economic Intelligence` `Country Risk` `Strategy`
+<img src="https://img.shields.io/badge/OSINT-0A1630?style=flat-square"/>
+<img src="https://img.shields.io/badge/STRATEGY-10264B?style=flat-square"/>
+<img src="https://img.shields.io/badge/AFRICA-00C8FF?style=flat-square"/>
+
+</td>
+</tr>
+</table>
 
 ---
 
-## TECHNICAL TOOLKIT
+<!-- GITHUB ANALYTICS -->
+
+## ◈ GITHUB ANALYTICS
 
 <div align="center">
 
-### Programming & Data
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Gabriel24nt&show_icons=true&hide_border=true&count_private=true&rank_icon=github&bg_color=050914&title_color=168BFF&icon_color=00C8FF&text_color=EAF2FF&border_radius=12" />
 
-<img src="https://img.shields.io/badge/Python-0A1630?style=for-the-badge&logo=python&logoColor=00C8FF" />
-<img src="https://img.shields.io/badge/SQL-10264B?style=for-the-badge&logo=sqlite&logoColor=white" />
-<img src="https://img.shields.io/badge/Streamlit-168BFF?style=for-the-badge&logo=streamlit&logoColor=white" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabriel24nt&layout=compact&hide_border=true&langs_count=8&bg_color=050914&title_color=168BFF&text_color=EAF2FF&border_radius=12" />
 
-### Finance & Analytics
+<br>
 
-<img src="https://img.shields.io/badge/Excel-0A1630?style=for-the-badge&logo=microsoft-excel&logoColor=00C8FF" />
-<img src="https://img.shields.io/badge/Financial_Analysis-10264B?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Business_Intelligence-168BFF?style=for-the-badge" />
+<img width="90%" src="https://streak-stats.demolab.com?user=Gabriel24nt&hide_border=true&background=050914&ring=168BFF&fire=00C8FF&currStreakLabel=168BFF&sideLabels=EAF2FF&currStreakNum=EAF2FF&sideNums=EAF2FF&dates=8A9BBD&border_radius=12" />
 
-### Development & Tools
+<br>
 
-<img src="https://img.shields.io/badge/Git-0A1630?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-10264B?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/VS_Code-168BFF?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Gabriel24nt&bg_color=050914&color=EAF2FF&line=168BFF&point=00C8FF&area=true&hide_border=true&custom_title=Contribution%20Activity" />
 
 </div>
 
 ---
 
-## GITHUB ACTIVITY
+<!-- TROPHIES -->
+
+## ◈ ACHIEVEMENTS & CONTRIBUTIONS
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Gabriel24nt&show_icons=true&hide_border=true&bg_color=050914&title_color=168BFF&icon_color=00C8FF&text_color=EAF2FF" width="48%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabriel24nt&layout=compact&hide_border=true&bg_color=050914&title_color=168BFF&text_color=EAF2FF" width="48%" />
-
-<img src="https://streak-stats.demolab.com?user=Gabriel24nt&hide_border=true&background=050914&ring=168BFF&fire=00C8FF&currStreakLabel=168BFF&sideLabels=EAF2FF&currStreakNum=EAF2FF&sideNums=EAF2FF&dates=8A9BBD" width="80%" />
+<img width="95%" src="https://github-profile-trophy.vercel.app/?username=Gabriel24nt&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=6" />
 
 </div>
 
 ---
 
-## CURRENT FOCUS
+<!-- SNAKE ANIMATION -->
 
-- Developing STRATOS into a strategic intelligence platform
-- Building financial analysis and valuation capabilities
-- Developing practical equity research projects
-- Exploring economic intelligence and country risk methodologies
-- Improving Python, data analytics and automation
-- Building a portfolio at the intersection of finance, strategy and technology
+## ◈ CONTRIBUTION MATRIX
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Gabriel24nt/Gabriel24nt/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation" />
+
+</div>
 
 ---
 
-## CONNECT WITH ME
+<!-- CURRENT FOCUS -->
+
+## ◈ CURRENT FOCUS
+
+<table>
+<tr>
+<td>
+
+🔵 **Financial Analysis & Valuation**
+
+Developing stronger analytical and financial modelling capabilities.
+
+</td>
+</tr>
+<tr>
+<td>
+
+🔵 **Investment Banking & Equity Research**
+
+Building practical company analysis and valuation projects.
+
+</td>
+</tr>
+<tr>
+<td>
+
+🔵 **Strategic Intelligence**
+
+Developing STRATOS and exploring country risk, economic intelligence and decision-support methodologies.
+
+</td>
+</tr>
+<tr>
+<td>
+
+🔵 **Technology & Data**
+
+Improving Python, automation, data analysis and application development.
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- CONNECT -->
+
+## ◈ CONNECT
 
 <div align="center">
 
 <a href="https://github.com/Gabriel24nt">
-<img src="https://img.shields.io/badge/GitHub-0A1630?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/GITHUB-050914?style=for-the-badge&logo=github&logoColor=00C8FF"/>
 </a>
 
 <a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-10264B?style=for-the-badge&logo=linkedin&logoColor=white" />
+<img src="https://img.shields.io/badge/LINKEDIN-0A1630?style=for-the-badge&logo=linkedin&logoColor=00C8FF"/>
 </a>
 
 <br><br>
 
-**Finance · Strategy · Intelligence · Technology**
+**FINANCE · STRATEGY · INTELLIGENCE · TECHNOLOGY**
 
 *Driven by curiosity. Built for impact.*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C8FF,50:168BFF,100:050914&height=120&section=footer" width="100%" />
 
 </div>
